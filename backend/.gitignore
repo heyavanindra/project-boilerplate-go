@@ -1,0 +1,35 @@
+# Binaries for current project
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*_test
+
+# Dependency caches
+# Go module cache
+.go/
+# Vendor directory (if using Go modules without vendoring)
+vendor/
+
+# Build artifacts
+# Output of 'go build'
+*.out
+# macOS specific build artifacts
+*.a
+# Linux specific build artifacts
+*.o
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+
+# Logs
+*.log
+
+# Environment variables
+.env

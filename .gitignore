@@ -1,0 +1,42 @@
+# Ignore the Turborepo cache directory
+.turbo
+
+# Ignore log files and databases
+*.log
+*.sqlite
+*.sqlite-journal
+
+# Ignore local environment variables
+.env
+.env.*.local
+
+# Ignore the build output directory
+# This typically appears in the root of a Turborepo
+dist
+build
+
+# Dependency directories
+# Node.js dependencies are common in Turborepo
+node_modules/
+
+# Golang
+# Compiled binaries
+*.exe
+*.test
+*.prof
+
+# Go module cache and build cache
+# Depending on your setup, this could be at the root
+# or within individual Go packages.
+vendor/
+go.mod.sum
+/bin/
+
+# Test output directories
+test-results/
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
